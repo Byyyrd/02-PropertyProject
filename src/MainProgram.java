@@ -1,5 +1,7 @@
 public class MainProgram {
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        Property p1 = new Property();
+
+        System.out.println(p1.getAddress());
     }
 }

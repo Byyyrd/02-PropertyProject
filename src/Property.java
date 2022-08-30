@@ -9,4 +9,7 @@ public class Property {
         length = 20.5;
     }
 
+    public String getAddress(){
+        return address;
+    }
 }
