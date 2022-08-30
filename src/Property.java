@@ -1,6 +1,6 @@
 public class Property {
     private String address;
-    private double width;
+    public double width;
     private double length;
 
     public Property(){
@@ -11,5 +11,8 @@ public class Property {
 
     public String getAddress(){
         return address;
+    }
+    public double getSize(){
+        return width * length;
     }
 }
