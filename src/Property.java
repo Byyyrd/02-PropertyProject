@@ -3,10 +3,10 @@ public class Property {
     public double width;
     private double length;
 
-    public Property(){
-        address = "Erzbergerstraße 1";
-        width = 10;
-        length = 20.5;
+    public Property(String a,double w,double l){
+        address = a;
+        width = w;
+        length = l;
     }
 
     public String getAddress(){
