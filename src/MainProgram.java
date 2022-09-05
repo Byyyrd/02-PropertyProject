@@ -20,5 +20,8 @@ public class MainProgram {
 
         HotDonuts d2 = new HotDonuts("Chocolate","Erzbergerstraße 2",1.50,5);
         System.out.println("Address: " + d2.getAddress() + "\nFlavor: " + d2.getFlavor() + "\nPrice: " + d2.getPrice() + "$");
+
+        HotDonuts d3 = new HotDonuts("Lemon","Erzbergerstraße 3",1,10);
+        System.out.println("Address: " + d3.getAddress() + "\nFlavor: " + d3.getFlavor() + "\nPrice: " + d3.getPrice() + "$");
     }
 }
