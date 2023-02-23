@@ -1,23 +1,23 @@
 public class HotDonuts {
-    private String Flavor;
-    private String Address;
-    public double Price;
-    private double Toppings;
+    private String flavor;
+    private String address;
+    public double price;
+    private int toppings;
 
-    public HotDonuts(String Flavor,String Address,double Price,double Toppings){
-        this.Flavor = Flavor;
-        this.Address = Address;
-        this.Price = Price;
-        this.Toppings = Toppings;
+    public HotDonuts(String flavor,String address,double price,int toppings){
+        this.flavor = flavor;
+        this.address = address;
+        this.price = price;
+        this.toppings = toppings;
     }
 
     public String getFlavor(){
-        return this.Flavor;
+        return this.flavor;
     }
     public String getAddress(){
-        return this.Address;
+        return this.address;
     }
     public double getPrice(){
-        return this.Price + this.Toppings * 0.50;
+        return this.price + this.toppings * 0.50;
     }
 }
