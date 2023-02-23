@@ -23,5 +23,6 @@ public class MainProgram {
 
         HotDonuts d3 = new HotDonuts("Lemon","Erzbergerstraße 3",1,10);
         System.out.println("Address: " + d3.getAddress() + "\nFlavor: " + d3.getFlavor() + "\nPrice: " + d3.getPrice() + "$");
+
     }
 }
